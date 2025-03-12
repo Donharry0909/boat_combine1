@@ -1,0 +1,1 @@
+not_moving_num += 1

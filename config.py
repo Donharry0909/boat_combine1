@@ -1,0 +1,39 @@
+# config.py
+"""
+調整參數區域
+"""
+
+# 設定螢幕尺寸
+SCREEN_WIDTH = 1000
+SCREEN_HEIGHT = 800
+GRID_SIZE = 8
+
+# 船數值
+BOAT_NUM = 5
+
+# boat.py屬性
+SAFE_RADIUS = 45
+ARRIVAL_TOLERANCE = 2.0  # 到達目標的容忍範圍
+SEMI_MAJOR_AXIS = 35
+SEMI_MINOR_AXIS = 25
+MAX_CHANGE_ANGLE = 11
+MAX_SPEED = 0.8
+MAX_CHANGE_SPEED = 0.001
+INTERVAL_NUM = 1
+
+# enemy物件屬性 (other_object.py)
+ENEMY_SPEED = 0.5   # 調整敵船速度
+ENEMY_RADIUS = 30
+ENEMY_ID = 99
+
+# 顏色定義 (RGB)
+WHITE = (255, 255, 255)
+BUTTON_COLOR = (70, 130, 180)  # 深藍色按鈕
+TEXT_COLOR = WHITE
+DESTINATION_MARKER_COLOR = (255, 0, 0)  # 目的地標記為紅色
+NUMBER_COLOR = (0, 0, 0)  # 編號顏色為黑色
+
+# 按鈕設定
+BUTTON_WIDTH = 140
+BUTTON_HEIGHT = 50
+BUTTON_MARGIN = 300
