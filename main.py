@@ -14,7 +14,6 @@ from ship_navigation_v1 import multi_ship_planning  # 多艘船規劃函式
 
 # -----------------------------------【新加入】 import threading
 import threading
-import Controller
 
 pygame.init()
 
